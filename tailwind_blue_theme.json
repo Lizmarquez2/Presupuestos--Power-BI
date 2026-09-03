@@ -1,0 +1,83 @@
+{
+  "name": "Tailwind Blue - Ppto Gastos",
+  "dataColors": [
+    "#2563EB",
+    "#60A8FB",
+    "#3B86F7",
+    "#90C7FE",
+    "#BEDCFE",
+    "#0F172A",
+    "#EF4444",
+    "#64748B"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#020817",
+  "tableAccent": "#2563EB",
+  "good": "#16A34A",
+  "neutral": "#64748B",
+  "bad": "#EF4444",
+  "maximum": "#2563EB",
+  "center": "#90C7FE",
+  "minimum": "#F1F5F9",
+  "textClasses": {
+    "label": { "fontFace": "Inter", "fontSize": 10, "color": "#020817" },
+    "callout": { "fontFace": "Inter", "fontSize": 24, "color": "#2563EB" },
+    "title": { "fontFace": "Inter", "fontSize": 14, "color": "#0F172A" },
+    "header": { "fontFace": "Inter", "fontSize": 12, "color": "#0F172A" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          { "fontColor": { "solid": { "color": "#0F172A" } }, "fontSize": 14, "fontFamily": "Inter" }
+        ],
+        "background": [
+          { "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }
+        ],
+        "border": [
+          { "show": true, "color": { "solid": { "color": "#E2E8F0" } }, "radius": 12 }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#020817" } },
+            "position": "Outside",
+            "preset": "Custom",
+            "shadowBlur": 10,
+            "shadowDistance": 4,
+            "shadowSpread": 0,
+            "transparency": 90
+          }
+        ],
+        "visualHeader": [{ "show": true }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#F8FAFC" } }, "transparency": 0 }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          { "color": "#2563EB", "fontSize": 28, "fontFamily": "Inter" }
+        ],
+        "categoryLabels": [
+          { "color": "#64748B", "fontSize": 11, "fontFamily": "Inter" }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#F1F5F9" } }, "transparency": 0 }
+        ],
+        "border": [
+          { "show": true, "color": { "solid": { "color": "#E2E8F0" } }, "radius": 8 }
+        ]
+      }
+    }
+  }
+}
