@@ -1,0 +1,21 @@
+{
+  "name": "Good Hope - Control Financiero",
+  "dataColors": ["#073B76", "#1769AA", "#4AAED8", "#7CC9E8", "#8AA6BF", "#C7D7E5", "#E5B94C", "#D95D5D"],
+  "background": "#F7FBFE",
+  "foreground": "#24364B",
+  "tableAccent": "#1769AA",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{ "fontColor": { "solid": { "color": "#073B76" } }, "fontSize": 14 }],
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "visualHeader": [{ "show": true }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F7FBFE" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
